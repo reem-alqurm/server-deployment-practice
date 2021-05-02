@@ -9,12 +9,12 @@ const app = express();
 
 // routes
 app.get('/', (req, res)=> {
-    res.status(200).send('Hello from Server home route');
+    res.status(200).send('Hello from Reem Server home route');
 });
 
 app.get('/info', (req, res)=> {
     res.status(200).json({
-        name: "Mohammad",
+        name: "reem",
         age: 29
     });
 });
