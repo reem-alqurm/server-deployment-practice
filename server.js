@@ -14,7 +14,7 @@ app.get('/', (req, res)=> {
 
 app.get('/info', (req, res)=> {
     res.status(200).json({
-        name: "Mohammad",
+        name: "reem",
         age: 29
     });
 });
